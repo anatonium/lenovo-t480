@@ -112,9 +112,8 @@ set_extrakeys() {
 }
 
 set_lenovo() {
-    yay -Sy lenovo-throttling-fix-git --needed --noconfirm
-    sudo systemctl enable lenovo_fix
-    sudo systemctl start lenovo_fix
+    yay -Sy throttled --needed --noconfirm
+    sudo systemctl enable --now throttled.service
 }
 
 disable_camera() {
@@ -135,4 +134,4 @@ set_extrakeys
 set_lenovo
 set_awesome
 set_terminal
-disable_camera
+# disable_camera
