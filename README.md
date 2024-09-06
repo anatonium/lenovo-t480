@@ -11,8 +11,8 @@ Lenovo T480 auto setup script for Archlinux
 - Boot Lenovo T480 using the USB thumb
 - run `wifi-menu` and setup your internet connection
 - run `pacman -Sy git`
-- run `git clone https://github.com/matteocrippa/gpd-pocket2 /tmp/gpd-pocket2`
-- `cd /tmp/gdp-pocket2`
+- run `git clone https://github.com/anatonium/lenovo-t480/ /tmp/lenovo-t480`
+- `cd /tmp/lenovo-t480`
 - edit `vars.sh` if you need/want to change any params
 - `./install.sh`
 - once the system enter in chroot run
