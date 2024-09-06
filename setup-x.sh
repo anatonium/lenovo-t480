@@ -93,8 +93,8 @@ set_xorg() {
     sudo cp xorg/20-evdidevice.conf /etc/x11/xorg.conf.d/20-evdidevice.conf
 }
 
-set_i3() {
-    yay -Sy i3-gaps-next-git i3lock-fancy-git --needed --noconfirm
+set_awesome() {
+    yay -Sy awesome-git --needed --noconfirm
     sudo cp .xinitrc ~/.xinitrc
 }
 
@@ -133,6 +133,6 @@ set_tlp
 set_xorg
 set_extrakeys
 set_lenovo
-set_i3
+set_awesome
 set_terminal
 disable_camera
