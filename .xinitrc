@@ -6,4 +6,4 @@ export SSH_AUTH_SOCK
 
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
-exec i3 --shmlog-size 0
+exec awesome
